@@ -105,6 +105,36 @@ a.tilelink
     height: 73px;
     
 }
+a.tile2link
+{
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+    width: 610px;
+    height: 73px;
+    
+}
+
+a.tile3link
+{
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+    width: 610px;
+    height: 73px;
+    
+}
+
+a.tile5link
+{
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+    width: 595px;
+    height: 150px;
+    
+}
+
 .github
 {
     margin: 15px;
