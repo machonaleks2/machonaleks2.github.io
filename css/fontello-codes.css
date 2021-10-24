@@ -1,0 +1,7 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-calendar:before { content: '\e802'; } /* '' */
+.icon-keyboard:before { content: '\f11c'; } /* '' */
+.icon-code:before { content: '\f121'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; } /* '' */
