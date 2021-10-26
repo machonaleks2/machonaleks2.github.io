@@ -1,0 +1,62 @@
+body
+{
+    background-color: #303030;
+    color: #ffffff;
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+#containeram
+{
+    width:1270px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tile
+{
+    
+    float:center;
+    margin: 10px;
+    width: 1230px;
+    height: 685px;
+    background-color: #666666;
+    text-align: center;
+}
+
+.text
+{
+    font-family:'Mulish', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#logo
+{
+    font-family: 'Mulish', sans-serif;
+    font-size: 70px;
+    width:755px;
+    float:left;
+}
+#clock
+{
+    font-family: 'Mulish', sans-serif;
+    font-size: 70px;
+    width:475px;
+    float:left;
+   
+}
+
+.rectangle
+{
+    width: 1230x;
+    margin: 20px;
+}
+
+.rectangle1
+{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
