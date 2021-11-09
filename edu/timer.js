@@ -1,18 +1,18 @@
-function odliczanie()
+function countingdown()
 	{
-		var dzisiaj = new Date();
+		var today = new Date();
 
-		var godzina = dzisiaj.getHours();
-		if (godzina<10) godzina = "0"+godzina;
+		var hour = today.getHours();
+		if (hour<10) hour = "0"+hour;
 		
-		var minuta = dzisiaj.getMinutes();
-		if (minuta<10) minuta = "0"+minuta;
+		var minute = today.getMinutes();
+		if (minute<10) minute = "0"+minute;
 		
-		var sekunda = dzisiaj.getSeconds();
-		if (sekunda<10) sekunda = "0"+sekunda;
+		var second = today.getSeconds();
+		if (second<10) second = "0"+second;
 		
 		document.getElementById("clock").innerHTML = 
-	    godzina+":"+minuta+":"+sekunda;
+	    hour+":"+minute+":"+second;
 		 
-		 setTimeout("odliczanie()",1000);
+		 setTimeout("countingdown()",1000);
 	}
