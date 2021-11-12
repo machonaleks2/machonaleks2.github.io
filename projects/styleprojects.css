@@ -20,8 +20,8 @@ body
     float:center;
     margin: 10px;
     width: 1230px;
-    height: 685px;
-    background-color: #9ED9CCFF;
+    height: 50px;
+    background-color: #FFDDE2FF;
     text-align: center;
 }
 
@@ -30,6 +30,50 @@ body
     font-family:'Mulish', sans-serif;
     font-size: 25px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text2
+{
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+.project1
+{
+    float:center;
+    margin: 10px;
+    width: 1230px;
+    height: 500px;
+    background-color: #9ED9CCFF;
+    text-align: center;
+}
+
+.xd
+{
+    float:center;
+    margin: 10px;
+    width: 1230px;
+    height: 3px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.xd2
+{
+    float:center;
+    margin: 10px;
+    margin-bottom: 39px;
+    width: 1230px;
+    height: 3px;
+    background-color: #000000;
+    text-align: center;
 }
 
 #logo

@@ -1,6 +1,6 @@
 body
 {
-    background-color: #303030;
+    background-color: #FFDDE2FF;
     color: #ffffff;
     font-family: muli, sans-serif;
     font-style: normal;
@@ -22,7 +22,7 @@ body
     margin: 10px;
     width: 1230px;
     height: 685px;
-    background-color: #666666;
+    background-color: #9ED9CCFF;
     text-align: center;
 }
 
@@ -38,6 +38,8 @@ body
     font-family:'Mulish', sans-serif;
     font-size: 40px;
     margin-top: 10px;
+    font-weight: bold;
+
 }
 
 #aboutme
@@ -80,6 +82,7 @@ body
 {
     width: 1230x;
     margin: 20px;
+    color: #008C76FF;
 }
 
 
@@ -93,6 +96,6 @@ body
 
 a.tilelinkmp
 {
-    color:#ffffff;
+    color:#008C76FF;
     text-decoration: none;
 }

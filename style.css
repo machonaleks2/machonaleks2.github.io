@@ -1,6 +1,6 @@
 body
 {
-    background-color: #303030;
+    background-color: #FFDDE2FF;
     color: #ffffff;
     font-family: muli, sans-serif;
     font-style: normal;
@@ -12,17 +12,20 @@ body
     width:1270px;
     margin-left:auto;
     margin-right:auto;
-    background-color: #303030;
+    background-color: #FFDDE2FF;
+    color: #008C76FF;
 }
 .rectangle
 {
     width: 1230x;
     margin: 20px;
+    color: #008C76FF;
 }
 .square
 {
     width: 50%;
     float:left;
+    color: #008C76FF;
 }
 #logo
 {
@@ -30,21 +33,24 @@ body
     font-size: 70px;
     width:755px;
     float:left;
+    color: #008C76FF;
 }
+
 #clock
 {
     font-family: 'Mulish', sans-serif;
     font-size: 70px;
     width:475px;
     float:left;
+    color: #825ba9;
    
 }
 .tile1
 {
     margin: 10px;
-    width: 295px;
+    width: 610px;
     height: 215px;
-    background-color: #666666;
+    background-color: #9ED9CCFF;
     float: left;
     text-align: center;
     
@@ -52,7 +58,7 @@ body
 
 .tile1:hover
 {
-    background-color: #383838;
+    background-color: #008C76FF;
 }
 
 .tile2
@@ -60,27 +66,13 @@ body
     margin: 10px;
     width: 610px;
     height: 215px;
-    background-color: #666666;
+    background-color:#9ED9CCFF;
     text-align: center;
 }
 
 .tile2:hover
 {
-    background-color: #383838;
-}
-
-.tile3
-{
-    margin: 10px;
-    width: 610px;
-    height: 215px;
-    background-color: #666666;
-    text-align: center;
-}
-
-.tile3:hover
-{
-    background-color: #383838;
+    background-color: #008C76FF;
 }
 
 .tile5
@@ -88,13 +80,13 @@ body
     margin: 10px;
     width: 595px;
     height: 450px;
-    background-color: #666666;
+    background-color: #b897d8;
     text-align: center;
 }
 
 .tile5:hover
 {
-    background-color: #383838;
+    background-color: #825ba9;
 }
 
 a.tilelink
@@ -102,7 +94,7 @@ a.tilelink
     color:#ffffff;
     text-decoration: none;
     display: block;
-    width: 295px;
+    width: 610px;
     height: 68px;
     
 }
@@ -142,7 +134,7 @@ a.tile5link
     width: 180px;
     height: 180px;
     float: left;
-    background-color: #303030;
+    background-color: #FFDDE2FF;
 }
 .instagram
 {
@@ -150,7 +142,7 @@ a.tile5link
     width: 180px;
     height: 180px;
     float: left;
-    background-color: #303030;
+    background-color: #FFDDE2FF;
 }
 .twitter
 {
@@ -158,7 +150,7 @@ a.tile5link
     width: 180px;
     height: 180px;
     float: left;
-    background-color: #303030;
+    background-color: #FFDDE2FF;
 }
 .rectangle1
 {
@@ -171,6 +163,8 @@ a.tile5link
     font-family:'Mulish', sans-serif;
     font-size: 25px;
     margin-top: 10px;
+    color: #FFDDE2FF;
+    
 }
 .text2
 {
@@ -181,6 +175,6 @@ a.tile5link
 
 a.tilelinkmp
 {
-    color:#ffffff;
+    color: #008C76FF;
     text-decoration: none;
 }

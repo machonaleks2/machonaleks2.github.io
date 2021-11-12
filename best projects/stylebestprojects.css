@@ -21,7 +21,7 @@ body
     margin: 10px;
     width: 1230px;
     height: 685px;
-    background-color: #9ED9CCFF;
+    background-color: #b897d8;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ body
 {
     width: 1230x;
     margin: 20px;
-    color: #008C76FF;
+    color: #825ba9;
 }
 
 
@@ -65,6 +65,6 @@ body
 
 a.tilelinkmp
 {
-    color:#008C76FF;
+    color:#825ba9;
     text-decoration: none;
 }
