@@ -12,18 +12,84 @@
   <link rel="shortcut icon" href="BLANK_ICON.ico" type="icon"/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
 <script src="timer.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="jquery.scrollTo.min.js"></script>
+<script>
+  jQuery(function($)
+		{
+			//reset scroll
+			$.scrollTo(0);
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+    }
+		);
+$(window).scroll(function()
+		{
+			if($(this).scrollTop()>100) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();
+		}
+		);
+</script>
+
 </head>
 
 <body onload="countingdown();">
+  <a href="#" class="scrollup"></a>
     <div id=containeram>
         <div class="rectangle">
             <div id="logo"><a href="https://machonaleks2.github.io/" class="tilelinkmp">Alexander Machon</a></div>
             <div id="clock">12:00:00</div>
             <div style="clear:both;"></div>
             </div>
-        <div class="tile">
-          <p class="text"> </p>
+            <div class="xd">
+              <p></p>
+            </div>
+            <div class="tile">
+              <p class="text2"> Projects that I would like to show off. </p>
+            </div>
+          <div class="xd2">
+            <p></p>
+          </div>
+          <div class="project1">
+            <p class="text"> one day there will be somethin.</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            .</br>
+            </p>
+          </div>
         </div>
     </div>
     <div style="clear:both;"></div>

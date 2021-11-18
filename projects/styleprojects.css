@@ -1,6 +1,6 @@
 body
 {
-    background-color: #FFDDE2FF;
+    background-image: url(img/pink_rice.png);
     color: #ffffff;
     font-family: muli, sans-serif;
     font-style: normal;
@@ -21,7 +21,7 @@ body
     margin: 10px;
     width: 1230px;
     height: 50px;
-    background-color: #FFDDE2FF;
+    background-image: url(img/pink_rice.png);
     text-align: center;
 }
 
@@ -111,4 +111,16 @@ a.tilelinkmp
 {
     color:#008C76FF;
     text-decoration: none;
+}
+
+.scrollup
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display:none;
 }

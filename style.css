@@ -1,10 +1,10 @@
 body
 {
-    background-color: #FFDDE2FF;
     color: #ffffff;
     font-family: muli, sans-serif;
     font-style: normal;
     font-weight: 200;
+    background-image: url(img/pink_rice.png);
 }
 
 #container
@@ -12,7 +12,7 @@ body
     width:1270px;
     margin-left:auto;
     margin-right:auto;
-    background-color: #FFDDE2FF;
+    background-image: url(img/pink_rice.png);
     color: #008C76FF;
 }
 .rectangle
