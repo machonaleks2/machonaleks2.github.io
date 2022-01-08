@@ -134,7 +134,7 @@ a.tile5link
     width: 180px;
     height: 180px;
     float: left;
-    background-color: #FFDDE2FF;
+    background-image: url(img/pink_rice.png);
 }
 .instagram
 {
@@ -142,7 +142,7 @@ a.tile5link
     width: 180px;
     height: 180px;
     float: left;
-    background-color: #FFDDE2FF;
+    background-image: url(img/pink_rice.png);
 }
 .twitter
 {
@@ -150,7 +150,7 @@ a.tile5link
     width: 180px;
     height: 180px;
     float: left;
-    background-color: #FFDDE2FF;
+    background-image: url(img/pink_rice.png);
 }
 .rectangle1
 {
