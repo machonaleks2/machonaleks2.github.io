@@ -1,0 +1,23 @@
+name: Alexander Machon 
+dp: \assets\images\pfp\pfp.jpg
+description: "
+  <h1 style='color:var(--dm-contrast)'>Hi, my name is Alex and im a student &#127891;&#127891;</h1><br/>
+  <p>
+    In my free time I do programming - mainly projects that I could use to fill my portfolio.<br/>
+    I'm quite familiar with Web Development, Unity Game Engine, C# and Python. On this portfolio site I put all of my interesting projects. Thanks!  
+  </p>
+  <br/>
+  <p>
+    Check out my projects down there! &#128071;&#128071;
+  </p>
+"
+email: machonaleks2@gmail.com
+contact:
+  - title: linkedin
+    url: https://www.linkedin.com/in/aleksander-machon-bb0bb11a9
+  - title: github
+    url: https://github.com/machonaleks2
+  - title: twitter
+    url: https://twitter.com/machon_alex
+  - title: email
+    url: mailto:machonaleks2@gmail.com

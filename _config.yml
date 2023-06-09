@@ -1,0 +1,28 @@
+title: Alexander Machon
+markdown: kramdown
+# url: ""
+# baseurl: "/jekyll-theme-material-you"
+
+# for atom feed
+author:
+  name: Alexander Machon
+  email: machonaleks2@gmail.com
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
