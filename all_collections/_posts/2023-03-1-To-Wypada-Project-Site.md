@@ -2,7 +2,7 @@
 layout: post
 title: To Wypada
 date: 2023-03-1
-categories: [webdev,website,jekyll,commision]
+categories: [website,jekyll,commision]
 thumbnail: "assets/images/tw/thumbnail.png"
 ---
 
