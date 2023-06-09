@@ -42,8 +42,9 @@ You may look around as you drive through the highway, looking at you surrounding
 In the future I plan on adding a custom music feature which would enable adding your own favourite songs to the game.
 
 # Credits
+
 |Music  |
-|--|
+|---|
 |Bettogh - Another World | 
 |Mattie Pride - Am I Happy|
 |Night Raptor - Shoreline|
