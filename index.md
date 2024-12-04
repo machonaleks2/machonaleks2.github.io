@@ -2,15 +2,13 @@
 layout: content
 ---
 
-# Clyell
 
-[https://gjuniioor.github.io/clyell](https://gjuniioor.github.io/clyell)
+# About
 
-### About
+ In my free time I do programming - mainly projects that I could use to fill my portfolio.
+ I'm quite familiar with C++, C, Unity Game Engine, C# and Python. On this portfolio site I put all of my interesting projects. I study computer science in the Silesian University of Technology. I am currently researching second and third level programming.
 
-It's just one more [jekyll](https://github.com/jekyll/jekyll) theme. Maybe it's has some appearance like a linux console. :)
-
-[Bootstrap](http://getbootstrap.com/) was added to turn responsible. Thanks, [@magnunleno](https://github.com/magnunleno).
+ Check out my projects <a href=" {{ site.baseurl }}work/ " style="font-weight: bold;"> here!</a>
 
 ### Features
 
