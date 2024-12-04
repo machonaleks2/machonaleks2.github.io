@@ -1,15 +1,21 @@
-<header class="row">
-  <div class="col-lg-8 col-lg-offset-2">
-    <h1 class="">Aleksander Machon</h1>
+<header class="row" style="display: grid;
+place-items: center; ">
+  <div class="col-lg-8 ">
+    <h1>Aleksander Machon</h1>
+    <div class="ikonki" style="display: flex;    
+    justify-content: center; 
+    gap: 20px;            
+    margin-bottom: 1rem;">
     <p>
-    <a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank" style="font-size: 15px; text-align: center;"><span class="string">{{ site.source_code.server }}<span class="reserved"></span></span></a>
+    <a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank" style="font-size: 15px; text-align: center;"><img src="images/github.svg" alt="github.machonaleks2" style="width: 50px;"></a>
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/aleksander-machon-bb0bb11a9/" target="_blank" style="font-size: 15px; text-align: center;"><span class="string">{{ site.linkedin.server }}</span>
+      <a href="https://www.linkedin.com/in/aleksander-machon-bb0bb11a9/" target="_blank" style="font-size: 15px; text-align: center;"> <img src="images/linkedin.svg" alt="linkedin" style="width: 50px;"> </a>
     </p>
     <p>
-    <a href="mailto:{{ site.mail.domain }}" target="_blank" style="font-size: 15px; text-align: center;"><span class="string">{{ site.mail.domain }}<span class="reserved"></span></a>
+    <a href="mailto:{{ site.mail.domain }}" target="_blank" style="font-size: 15px; text-align: center;"><img src="images/email.svg" alt="machon.aleks@gmail.com" style="width: 50px;"></a>
     </p>
+  </div>
     <!-- <p>
             printf(<a href="https://{{ site.blog.nick }}.{{ site.blog.server }}" target="_blank"><span class="string">"https://<span class="reserved">%s</span>.{{ site.blog.server }}<span class="reserved">\n</span>"</span></a>,nick);
         </p> -->
