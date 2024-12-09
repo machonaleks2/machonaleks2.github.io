@@ -3,7 +3,6 @@ title: "Alexander Machon"
 bye_message: "Thx!"
 baseurl: "/machonalex/"
 url: "https://machonaleks2.github.io"
-disqus: gjuniioor
 
 # Header settings
 nick: "Alexander Machon"
@@ -12,9 +11,6 @@ mail:
 source_code:
     server: "github.com"
     nick: "machonaleks2"
-blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
 linkedin:
     server: "linkedin"
 # Build settings
