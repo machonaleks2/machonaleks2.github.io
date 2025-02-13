@@ -16,7 +16,7 @@ layout: content
 ### Cellular automata implementation in C++ using Raylib based on Conway's Game of Life
 - [x] Google analytics
 - [x] Disqus
-- [x] Responsible
+
 
 
 ### Characteristics
