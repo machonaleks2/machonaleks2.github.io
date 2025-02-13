@@ -17,7 +17,7 @@ layout: content
 - [x] Google analytics
 - [x] Disqus
 - [x] Responsible
-- [x] Highlights for code
+
 
 ### Characteristics
 
