@@ -13,48 +13,30 @@ layout: content
 
 # Latest project:
 
-### Cellular automata implementation in C++ using Raylib based on Conway's Game of Life
-- [x] Google analytics
-- [x] Disqus
+# N-Body Gravitational Modeler
 
+This project is a high-performance, interactive prototype built in Unity that simulates the gravitational dynamics of an N-body system.
 
+# The Core Idea
 
-### Characteristics
+The "N-body problem" is a classic computational challenge: how do you simulate the motion of $N$ (e.g., 100,000) particles that are all gravitationally attracting each other?
 
-- [x] Customized (and nice :P) 404 page
-- [x] Simple
-- [x] Friendly to read
+A simple, "brute-force" approach, where every particle calculates the force from every other particle, is an O(n^2) algorithm. This means for 100,000 bodies, you would need 100,000 times 100,000 = 10,000,000,000 (ten billion) calculations per frame, making real-time simulation impossible.
+
+This prototype solves this performance barrier by implementing a dual optimization strategy:
+
+1.  **Algorithmic Optimization:** It uses the **Barnes-Hut algorithm**, an O(n \log n) approximation that intelligently groups distant particles into clusters, drastically reducing the number of calculations.
+    
+2.  **Hardware Optimization:** It leverages Unity's **Data-Oriented Technology Stack (DOTS)**, specifically the **C# Job System** and **Burst Compiler**, to execute all simulation logic in parallel across all available CPU cores.
+    
+
+The result is a fully custom physics sandbox, running its own simulation logic completely independent of Unity's built-in 3D physics engine. It is capable of handling hundreds of thousands of bodies in real-time while providing a full UI to control the simulation's physical parameters.
+
 
 ### Screenshots
 
-![Screenshot]({{ site.baseurl }}images/screenshot/01.png)
+![Screenshot]({{ site.baseurl }}images/nbody/1.png)
 
-![Screenshot]({{ site.baseurl }}images/screenshot/02.png)
+![Screenshot]({{ site.baseurl }}images/nbody/3.png)
 
-### Config file example
 
-~~~ yml
-# Site settings
-title: "gjuniioor"
-bye_message: "Thx!"
-baseurl: "/clyell/"
-url: "https://gjuniioor.github.io"
-disqus: gjuniioor
-
-# Header settings
-nick: "gjuniioor"
-mail:
-    domain: "protonmail"
-    ext: "ch"
-source_code:
-    server: "github.com"
-    nick: "gjuniioor"
-blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
-
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
-~~~

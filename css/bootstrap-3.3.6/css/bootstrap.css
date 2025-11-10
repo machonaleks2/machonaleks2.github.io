@@ -1535,11 +1535,11 @@ samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: rgba(220, 220, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
 }
 kbd {
   padding: 2px 4px;
