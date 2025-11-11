@@ -7,63 +7,49 @@ permalink: /work/
 <style>
   ul.posts {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
   }
   ul.posts li {
-    border: 1.5px;
-    border-bottom-style: dotted;
-    border-top-style: dotted;
-    border-left-style: none;
-    border-right-style: none;
-    display: inline-block;
-    padding: 20px;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+    border: 1.5px dotted #aaa;
+    border-left: none; border-right: none;
+    padding: 20px; width: 100%;
+    margin: 10px 0; box-sizing: border-box;
   }
-  ul.posts img.post-thumb {
+  .post-thumb {
     display: block;
-    width: clamp(240px, 85vw, 520px); /* JESZCZE WIĘKSZE */
-    max-width: 100%;                  /* nie wyjdzie poza <li> */
-    height: auto;
-    border-bottom-style: dotted;
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    margin-bottom: 10px;
+    width: clamp(240px, 85vw, 520px);
+    max-width: 100%; height: auto;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted #aaa;
   }
-  @media (min-width: 900px) {
-    ul.posts img.post-thumb {
-      width: clamp(300px, 40vw, 640px); /* większy limit na desktopie */
-    }
-  }
+  .post-meta { color:#828282; font-size: 14px; }
 </style>
 
 <ul class="posts">
-  {% for post in site.categories.work %}
+  {% assign works = site.categories.work | default: site.tags.work %}
+  {% for post in works %}
     <li>
-      <img
-        class="post-thumb"
-        src="{{ site.baseurl }}images/{{ post.thumbnail }}"
-        alt="{{ post.title | escape }}"
-        loading="lazy"
-      />
-      <br/> ::
-      <a class="post-link" href="{{ site.baseurl }}{{ post.url }}" style="font-size:25px; margin-bottom:5px;">
+      {% if post.thumbnail %}
+        <img
+          class="post-thumb"
+          src="{{ '/images/' | append: post.thumbnail | relative_url }}"
+          alt="{{ post.title | escape }}"
+          loading="lazy"
+        >
+      {% endif %}
+
+      <a class="post-link" href="{{ post.url | relative_url }}"
+         style="font-size: 22px; font-weight: 600;">
         {{ post.title }}
       </a>
-      <br/>
-      <span style="font-size:15px; margin-bottom:5px;">@ {</span>
-      {% assign tag = post.tags | sort %}
-      {% for category in tag %}
-        <span style="font-size:15px; margin-bottom:5px;">
-          <a href="{{ site.baseurl }}category/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %},{% endif %}
-        </span>
-      {% endfor %}
-      {% assign tag = nil %}
-      <span style="font-size:15px; margin-bottom:5px;">}</span>
+
+      {% if post.date %}
+        <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
+      {% endif %}
+
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

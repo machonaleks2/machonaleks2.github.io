@@ -2,7 +2,7 @@
 layout: post
 title:	"Synthwave radio"
 date:	2017-04-11 03:00:00
-thumbnail:  "iamges/sr/thumbnail.jpg"
+thumbnail:  "sr/thumbnail.jpg"
 categories:
     - work
 tags:
