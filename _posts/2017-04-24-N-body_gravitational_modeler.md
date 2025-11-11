@@ -2,7 +2,7 @@
 layout: post
 title:	"N-Body Gravitational Modeler"
 date:	2017-04-11 03:00:00
-thumbnail:  "nbody/thumbnail.png"
+thumbnail:  "images/nbody/thumbnail.png"
 categories:
     - work
 tags:
