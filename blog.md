@@ -43,13 +43,7 @@ permalink: /work/
         {{ post.title }}
       </a>
 
-      {% if post.date %}
-        <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
-      {% endif %}
-
-      {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
-      {% endif %}
+      
     </li>
   {% endfor %}
 </ul>
