@@ -273,9 +273,9 @@ The simulation is a self-contained physics sandbox. The camera can be controlled
 -   **Lumination:** Acts as a brightness/emission multiplier for the base color, creating an HDR effect for the particles.
 
 # Visual showcase
-![cockpit front view]({{ site.baseurl }}images/nbody/1.png)
-<img src="{{ site.baseurl }}images/nbody/2.png" width="422"/> <img src="{{ site.baseurl }}images/nbody/3.png" width="422"/> 
-<img src="{{ site.baseurl }}images/nbody/4.png" width="422"/> 
-<img src="{{ site.baseurl }}images/nbody/5.png" width="422"/> 
-<img src="{{ site.baseurl }}images/nbody/6.png" width="422"/> 
-<img src="{{ site.baseurl }}images/nbody/7.png" width="422"/> 
+![cockpit front view]({{ '/images/' | relative_url }}nbody/1.png)
+<img src="{{ '/images/' | relative_url }}nbody/2.png" width="422"/> <img src="{{ '/images/' | relative_url }}nbody/3.png" width="422"/> 
+<img src="{{ '/images/' | relative_url }}nbody/4.png" width="422"/> 
+<img src="{{ '/images/' | relative_url }}nbody/5.png" width="422"/> 
+<img src="{{ '/images/' | relative_url }}nbody/6.png" width="422"/> 
+<img src="{{ '/images/' | relative_url }}nbody/7.png" width="422"/> 

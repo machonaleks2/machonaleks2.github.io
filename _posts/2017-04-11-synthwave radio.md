@@ -34,8 +34,8 @@ The graphics are deliberately low-key and minimalistic. The game's interface is 
 
 [Youtube gameplay showcase](https://www.youtube.com/watch?v=AuQCYCjqsHU)
 
-![cockpit front view]({{ site.baseurl }}images/sr/sr1.jpg)
-<img src="{{ site.baseurl }}images/sr/sr2.jpg" width="422"/> <img src="{{ site.baseurl }}images/sr/sr3.jpg" width="422"/> 
+![cockpit front view]({{ '/images/' | relative_url }}sr/sr1.jpg)
+<img src="{{ '/images/' | relative_url }}sr/sr2.jpg" width="422"/> <img src="{{ '/images/' | relative_url }}sr/sr3.jpg" width="422"/> 
 
 # What it features?
 

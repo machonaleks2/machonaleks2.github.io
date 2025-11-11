@@ -1,8 +1,8 @@
 # Site settings
 title: "Alexander Machon"
 bye_message: "Thx!"
-baseurl: "/machonalex/"
-url: "https://www.machonalex.com/"
+baseurl: ""
+url: "https://www.machonalex.com"
 
 # Header settings
 nick: "Alexander Machon"
